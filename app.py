@@ -1,6 +1,7 @@
 import streamlit as st
 import pickle
 import pandas as pd
+import os
 
 # Load trained model
 model_path = os.path.join(os.path.dirname(__file__), 'retail_model.pkl')
