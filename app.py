@@ -1,6 +1,7 @@
 import streamlit as st
 import joblib
 import os
+import pandas as pd
 
 # Load trained model
 model_path = os.path.join(os.path.dirname(__file__), 'retail_model.joblib')
